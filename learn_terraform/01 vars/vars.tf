@@ -38,3 +38,7 @@ output "sample_dic_my_name" {
 }
 
 variable "env" {}
+
+output "dynamic" {
+  value = var.env
+}

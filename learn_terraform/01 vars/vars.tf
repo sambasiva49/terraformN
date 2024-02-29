@@ -22,3 +22,17 @@ variable "sample_list" {
 output "second_value" {
   value = var.sample_list[1]
 }
+
+variable "sample_dic" {
+  default = {
+    string = "samba"
+    value = 100
+    boolean = true
+
+  }
+
+}
+
+output "sample_dic_my_name" {
+  value = var.sample_dic["number1"]
+}

@@ -36,3 +36,5 @@ variable "sample_dic" {
 output "sample_dic_my_name" {
   value = var.sample_dic["string"]
 }
+
+variable "env" {}

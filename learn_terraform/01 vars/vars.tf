@@ -7,5 +7,5 @@ output "sample_string" {
 }
 
 output "sample_string_duplicate" {
-  value = "value of sample string ${var.sample_sring}"
+  value = "value of sample string = ${var.sample_sring}"
 }

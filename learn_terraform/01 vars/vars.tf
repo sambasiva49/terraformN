@@ -39,6 +39,14 @@ output "sample_dic_my_name" {
 
 variable "env" {}
 
-output "dynamic" {
+output "environment" {
   value = var.env
+}
+
+variable "auto" {
+
+}
+
+output "auto_num" {
+  value = var.auto
 }
